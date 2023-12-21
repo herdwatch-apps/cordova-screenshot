@@ -14,6 +14,7 @@ import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.Bitmap.CompressFormat;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Environment;
 import android.util.Base64;
 import android.view.TextureView;
@@ -190,7 +191,7 @@ public class Screenshot extends CordovaPlugin {
 
      public void getScreenshotAsURISync() throws JSONException{
         mQuality = (Integer) mArgs.get(0);
-        
+
         Runnable r = new Runnable(){
             @Override
             public void run() {
@@ -221,7 +222,7 @@ public class Screenshot extends CordovaPlugin {
         mArgs = args;
 
         if (action.equals("saveScreenshot")) {
-            if(PermissionHelper.hasPermission(this, PERMISSIONS[0])) {
+            if(Build.VERSION.SDK_INT >= 33 || PermissionHelper.hasPermission(this, PERMISSIONS[0])) {
                 saveScreenshot();
             } else {
                 PermissionHelper.requestPermissions(this, SAVE_SCREENSHOT_SEC, PERMISSIONS);

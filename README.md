@@ -1,7 +1,7 @@
 cordova-screenshot
 ==================
 
-[![NPM version](http://img.shields.io/npm/v/com.darktalker.cordova.screenshot.svg?style=flat)](https://www.npmjs.com/package/com.darktalker.cordova.screenshot)
+[![NPM version](http://img.shields.io/npm/v/@herdwatch-apps/cordova-plugin-screenshot.svg?style=flat)](https://www.npmjs.com/package/@herdwatch-apps/cordova-plugin-screenshot)
 
 
 The Screenshot plugin allows your application to take screenshots of the current screen and save them into the phone.
@@ -11,12 +11,12 @@ The Screenshot plugin allows your application to take screenshots of the current
 install it via cordova cli
 
 ```
-cordova plugin add https://github.com/gitawego/cordova-screenshot.git
+cordova plugin add https://github.com/herdwatch-apps/cordova-screenshot.git
 ```
 
 notice:
 in iOS, only jpg format is supported
-in Android, the default WebView and [Crosswalk](https://crosswalk-project.org/documentation/cordova.html) are both supported
+in Android, the default WebView is supported
 
 ## usage
 

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin id="com.darktalker.cordova.screenshot" version="0.1.6" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
-    <name>com.darktalker.cordova.screenshot</name>
-    <description>screenshot PhoneGap Plugin for Android</description>
+<plugin id="@herdwatch-apps/cordova-plugin-screenshot" version="0.1.7" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>Cordova Screenshot Plugin</name>
+    <description>The Screenshot plugin allows your application to take screenshots of the current screen and save them into the phone.</description>
     <license>MIT</license>
-    <keywords>cordova,screenshot,ecosystem:cordova,cordova-android,cordova-ios,cordova-osx</keywords>
-    <repo>git+https://github.com/gitawego/cordova-screenshot.git</repo>
+    <keywords>cordova,screenshot,ecosystem:cordova,cordova-android,cordova-ios</keywords>
+    <repo>git+https://github.com/herdwatch-apps/cordova-screenshot.git</repo>
     <engines>
         <engine name="cordova" version=">=3.0.0"/>
     </engines>
@@ -34,16 +34,6 @@
         <header-file src="src/ios/Screenshot.h"/>
         <source-file src="src/ios/Screenshot.m"/>
     </platform>
-    <!-- osx -->
-    <platform name="osx">
-        <config-file target="config.xml" parent="/*">
-            <feature name="Screenshot">
-                <param name="osx-package" value="Screenshot"/>
-            </feature>
-        </config-file>
-        <header-file src="src/osx/Screenshot.h"/>
-        <source-file src="src/osx/Screenshot.m"/>
-    </platform>
-    <issue>https://github.com/gitawego/cordova-screenshot/issues</issue>
+    <issue>https://github.com/herdwatch-apps/cordova-screenshot/issues</issue>
     <author>Hongbo LU</author>
 </plugin>
