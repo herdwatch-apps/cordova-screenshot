@@ -11,12 +11,26 @@ The Screenshot plugin allows your application to take screenshots of the current
 install it via cordova cli
 
 ```
-cordova plugin add https://github.com/herdwatch-apps/cordova-screenshot.git
+cordova plugin add https://github.com/herdwatch-apps/cordova-plugin-screenshot.git
 ```
 
 notice:
 in iOS, only jpg format is supported
 in Android, the default WebView is supported
+
+## Ionic
+
+Dev version
+
+```shell
+  npm i awesome-cordova-plugins-screenshot
+```
+
+Prod version
+
+```shell
+  npm i @awesome-cordova-plugins/screenshot
+```
 
 ## usage
 

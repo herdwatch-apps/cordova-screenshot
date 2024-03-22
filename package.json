@@ -1,6 +1,6 @@
 {
   "name": "@herdwatch-apps/cordova-plugin-screenshot",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "screenshot PhoneGap Plugin for Android",
   "publishConfig": {
     "access": "public",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/herdwatch-apps/cordova-screenshot.git"
+    "url": "git+https://github.com/herdwatch-apps/cordova-plugin-screenshot.git"
   },
   "keywords": [
     "cordova",
@@ -30,9 +30,9 @@
   "author": "Hongbo LU",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/herdwatch-apps/cordova-screenshot/issues"
+    "url": "https://github.com/herdwatch-apps/cordova-plugin-screenshot/issues"
   },
-  "homepage": "https://github.com/herdwatch-apps/cordova-screenshot#readme",
+  "homepage": "https://github.com/herdwatch-apps/cordova-plugin-screenshot#readme",
   "devDependencies": {
     "sync-cordova-xml": "^0.4.0"
   },
