@@ -11,6 +11,8 @@ The Screenshot plugin allows your application to take screenshots of the current
 install it via cordova cli
 
 ```
+ioinic cordova plugin add @herdwatch-apps/cordova-plugin-screenshot
+cordova plugin add @herdwatch-apps/cordova-plugin-screenshot
 cordova plugin add https://github.com/herdwatch-apps/cordova-plugin-screenshot.git
 ```
 
@@ -19,14 +21,6 @@ in iOS, only jpg format is supported
 in Android, the default WebView is supported
 
 ## Ionic
-
-Dev version
-
-```shell
-  npm i awesome-cordova-plugins-screenshot
-```
-
-Prod version
 
 ```shell
   npm i @awesome-cordova-plugins/screenshot
@@ -44,6 +38,7 @@ navigator.screenshot.save(function(error,res){
   }
 });
 ```
+
 take screenshot with jpg and custom quality
 ```js
 navigator.screenshot.save(function(error,res){
@@ -108,10 +103,7 @@ navigator.screenshot.URI(function(error,res){
 ```
 
 ## Known Issue
-### in Android platform I receive the black image with crosswalk 
-#### solution: 
 
-add this line ``<preference name="CrosswalkAnimatable" value="true" />`` in config.xml, see [bug](https://crosswalk-project.org/jira/browse/XWALK-2233)
 
 
 License
