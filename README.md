@@ -1,7 +1,7 @@
 cordova-screenshot
 ==================
 
-[![NPM version](http://img.shields.io/npm/v/@herdwatch-apps/cordova-plugin-screenshot.svg?style=flat)](https://www.npmjs.com/package/@herdwatch-apps/cordova-plugin-screenshot)
+[![NPM version](http://img.shields.io/npm/v/@herdwatch/cordova-plugin-screenshot.svg?style=flat)](https://www.npmjs.com/package/@herdwatch/cordova-plugin-screenshot)
 
 
 The Screenshot plugin allows your application to take screenshots of the current screen and save them into the phone.
@@ -11,8 +11,8 @@ The Screenshot plugin allows your application to take screenshots of the current
 install it via cordova cli
 
 ```
-ioinic cordova plugin add @herdwatch-apps/cordova-plugin-screenshot
-cordova plugin add @herdwatch-apps/cordova-plugin-screenshot
+ioinic cordova plugin add @herdwatch/cordova-plugin-screenshot
+cordova plugin add @herdwatch/cordova-plugin-screenshot
 cordova plugin add https://github.com/herdwatch-apps/cordova-plugin-screenshot.git
 ```
 
